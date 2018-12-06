@@ -1,0 +1,79 @@
+
+#wrapper {
+    width: 960px;
+    background-color: lightgray;
+}
+
+#top {
+    height: 130px;
+    line-height: 130px;
+    background-color: black;
+}
+
+#logo {
+    height: 130px;
+}
+
+#menu {
+
+}
+
+#footer {
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+    font-palette: white;
+}
+
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.wrapperPaddingRight {
+    padding-right: 31px;
+}
+
+.clearPadding {
+    padding: 0px;
+}
+
+.grSmall {
+    width: 329px;
+}
+
+.grBig {
+    width: 600px;
+}
+
+.displayInLine {
+    display: inline;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.Helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
