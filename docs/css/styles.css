@@ -14,20 +14,65 @@
     height: 130px;
 }
 
-#menu {
+#banner {
+    background-image: url("../../../Midterm/docs/images/header.png");
+    background-size: cover;
+    height: 367px;
+    position: relative;
+}
 
+#banner h1 {
+    position: relative;
+    top: 62px;
+    left: 265px;
+}
+
+#panel1, #panel2, #panel3 {
+    width: 320px;
+}
+
+#panelBanner1 {
+    background-image: url("../../../Midterm/docs/images/bean.png");
+    background-size: cover;
+    width: 316px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner2 {
+    background-image: url("../../../Midterm/docs/images/mushy.png");
+    background-size: cover;
+    width: 316px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner3 {
+    background-image: url("../../../Midterm/docs/images/king.png");
+    background-size: cover;
+    width: 316px;
+    height: 200px;
+    border: 2px black solid;
 }
 
 #footer {
     height: 100px;
     line-height: 100px;
-    background-color: black;
-    font-palette: white;
+    background-color: lightgray;
+    font-palette: black;
+}
+
+.topMargin {
+    margin-top: 31px;
 }
 
 .marginCenter {
     margin-right: auto;
     margin-left: auto;
+}
+
+.clearMargin {
+    margin: 0px;
 }
 
 .alignRight {
@@ -40,6 +85,10 @@
 
 .wrapperPaddingRight {
     padding-right: 31px;
+}
+
+.paddingTop {
+    padding-top: 31px;
 }
 
 .clearPadding {
@@ -64,6 +113,17 @@
 
 .clearFix {
     clear: both;
+}
+
+.panelHeading {
+    margin-left: 31px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.panelMargin {
+    margin-left: 62px;
+    margin-right: 31px;
 }
 
 .Helvetica {
