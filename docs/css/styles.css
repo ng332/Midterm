@@ -1,7 +1,11 @@
 
 #wrapper {
     width: 960px;
-    background-color: lightgray;
+    background-image: -webkit-linear-gradient(top, #fffefe 0%, #474747 100%);
+    background-image: -moz-linear-gradient(top, #fffefe 0%, #474747 100%);
+    background-image: -ms-linear-gradient(top, #fffefe 0%, #474747 100%);
+    background-image: -o-linear-gradient(top, #fffefe 0%, #474747 100%);
+    background-image: linear-gradient(top, #fffefe 0%, #474747 100%);
 }
 
 #top {
@@ -58,8 +62,13 @@
 #footer {
     height: 100px;
     line-height: 100px;
-    background-color: lightgray;
+    background-color: rgb(89, 89, 89);
     font-palette: black;
+}
+
+.fancy {
+    color: #efefef;
+    -webkit-text-stroke: 1px #000000;
 }
 
 .topMargin {
