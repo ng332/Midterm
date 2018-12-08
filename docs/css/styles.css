@@ -54,9 +54,74 @@
 #panelBanner3 {
     background-image: url("../../../Midterm/docs/images/king.png");
     background-size: cover;
-    width: 316px;
+    width: 300px;
     height: 200px;
     border: 2px black solid;
+}
+
+#panelBanner4 {
+    background-image: url("../../../Midterm/docs/images/pt1.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner5 {
+    background-image: url("../../../Midterm/docs/images/pt2.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner6 {
+    background-image: url("../../../Midterm/docs/images/pt3.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner7 {
+    background-image: url("../../../Midterm/docs/images/pt4.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner8 {
+    background-image: url("../../../Midterm/docs/images/pt5.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#panelBanner9 {
+    background-image: url("../../../Midterm/docs/images/pt6.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px black solid;
+}
+
+#content {
+    padding-top: 31px;
+    padding-left: 31px;
+    width: 640px;
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    background-image: url("../../../Midterm/docs/images/nicky.jpg");
+    border-radius: 100px/ 50px;
+}
+
+#comicPanel {
+    width: 316px;
 }
 
 #footer {
@@ -84,6 +149,10 @@
     margin: 0px;
 }
 
+.marginRight {
+    margin-right: 0px;
+}
+
 .alignRight {
     text-align: right;
 }
@@ -98,6 +167,10 @@
 
 .paddingTop {
     padding-top: 31px;
+}
+
+.paddingLeft {
+    padding-left: 31px;
 }
 
 .clearPadding {
@@ -141,8 +214,13 @@
 
 a {
     text-decoration: none;
+
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.header-link {
+    color: white;
 }
